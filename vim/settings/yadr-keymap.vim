@@ -228,3 +228,10 @@ map <D-%> :so %<CR>
 
 " ,hp = html preview
 map <silent> ,hp :!open -a Safari %<CR><CR>
+
+" ==========================
+" Auto-wrapping
+" ==========================
+map ,re :set colorcolumn=+1 tw=80 fo+=t wm=0 <CR>
+map ,ree :set colorcolumn=+1 tw=72 fo-=t wm=0 <CR>
+map ,er :set colorcolumn=0 tw=80 fo-=t wm=0 <CR>
